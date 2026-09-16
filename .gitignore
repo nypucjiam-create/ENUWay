@@ -1,0 +1,9 @@
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+*.tmp
+*.log
+~$*.docx
+dist/
+build/

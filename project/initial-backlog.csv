@@ -1,0 +1,11 @@
+ID,Title,Type,Status,Priority,Iteration,Estimate,Area,Risk,AcceptanceCriteria
+ENU-001,Пилот қатысушыларына сұхбат жүргізу,Research,Ready,P0,Iteration 1,3,Product,Medium,"Кемінде 5 сұхбат; қорытынды мен қайталанған мәселелер құжатталған"
+ENU-002,Негізгі persona және JTBD қалыптастыру,Research,Backlog,P1,Iteration 1,2,UX,Low,"Сұхбат дәлеліне сүйенген 2 persona және JTBD review-дан өтті"
+ENU-003,ENU пайдаланушысын тексеру нұсқаларын бағалау,Research,Ready,P0,Iteration 1,5,Backend,High,"Кемінде 3 нұсқа; құпиялық тәуекелі; ұсыныс және қабылдау шарты бар"
+ENU-004,Қауіпсіз кездесу нүктелері ережесін анықтау,Risk,Backlog,P0,Iteration 1,3,PM,High,"Рұқсат етілетін және тыйым салынатын нүктелер; модерация ережесі бекітілген"
+ENU-005,Сапар құру ағынын прототиптеу,Feature,Backlog,P1,Iteration 1,5,UX,Medium,"Бағыт; уақыт; орын; шығын өрістері бар; 5 пайдаланушымен usability тексерілді"
+ENU-006,Сапарға қосылу ағынын прототиптеу,Feature,Backlog,P1,Iteration 2,5,UX,Medium,"Іздеу; сәйкестік; бронь; бас тарту сценарийлері орындалады"
+ENU-007,Шығынды бөлу логикасын анықтау,Feature,Backlog,P1,Iteration 2,3,Backend,Medium,"Ереже түсінікті; edge case тізімі; unit-test мысалдары бар"
+ENU-008,Рейтинг пен шағым моделін жобалау,Feature,Backlog,P0,Iteration 2,5,Product,High,"Шағым беру; triage; бұғаттау және appeal ағыны сипатталған"
+ENU-009,ENUWay кликабельді прототипін біріктіру,Feature,Backlog,P1,Iteration 2,8,Frontend,Medium,"Негізгі end-to-end сценарий demo-да орындалады"
+ENU-010,Пилот жоспары мен өлшемдерін бекіту,Documentation,Backlog,P1,Iteration 2,3,PM,Medium,"Қатысушылар; мерзім; consent; 4 KPI және stop-criteria жазылған"

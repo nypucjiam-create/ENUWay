@@ -1,0 +1,29 @@
+name: Зерттеу
+description: Белгісіздікті азайтатын зерттеу немесе spike
+title: "[ENU-###] "
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Зерттеу сұрағы
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Әдіс және шектеу
+      description: Әдіс, қатысушылар, уақыт шегі және этикалық шектеулер.
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Қандай шешімге әсер етеді?
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Аяқталу шарты
+    validations:
+      required: true

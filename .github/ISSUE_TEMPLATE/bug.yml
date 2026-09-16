@@ -1,0 +1,29 @@
+name: Ақау
+description: Күтілетін және нақты мінез-құлықтың айырмасы
+title: "[ENU-###] "
+body:
+  - type: textarea
+    id: expected
+    attributes:
+      label: Күтілетін нәтиже
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Нақты нәтиже
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Қайта шығару қадамдары
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Әсері
+      options: [Low, Medium, High, Critical]
+    validations:
+      required: true
