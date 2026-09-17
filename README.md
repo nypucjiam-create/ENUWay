@@ -32,7 +32,9 @@ ENU қауымдастығы ішінде тексерілген пайдала�
 
 ## Жұмыс кеңістігі
 
-GitHub Projects конфигурациясы [workspace-configuration.md](docs/workspace-configuration.md) құжатында берілген. Тақта жарияланғаннан кейін репозиторий мен Project сілтемелері осы бөлімге қосылады.
+- [GitHub репозиторийі](https://github.com/nypucjiam-create/ENUWay)
+- [ENUWay — MVP Delivery тақтасы](https://github.com/users/nypucjiam-create/projects/3)
+- Толық конфигурация: [workspace-configuration.md](docs/workspace-configuration.md)
 
 ## AI қолдану туралы ашықтық
 
