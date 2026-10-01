@@ -36,6 +36,7 @@ ENU қауымдастығы ішінде тексерілген пайдала�
 - [GitHub репозиторийі](https://github.com/nypucjiam-create/ENUWay)
 - [ENUWay — MVP Delivery тақтасы](https://github.com/users/nypucjiam-create/projects/3)
 - [ЛЗ 4 артефактілері](docs/requirements/README.md)
+- [ЛЗ 5 жеткізу жоспары](docs/plan/README.md)
 - [Журнал сдач](docs/submission-log.md)
 - Толық конфигурация: [workspace-configuration.md](docs/workspace-configuration.md)
 
