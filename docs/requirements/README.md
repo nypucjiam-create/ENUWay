@@ -7,6 +7,7 @@
 - [Исходник Story map Excalidraw](story-map.excalidraw)
 - [Бэклог CSV](backlog.csv)
 - [GitHub Issues US-01–US-18](https://github.com/nypucjiam-create/ENUWay/issues)
+- [Единый реестр рабочих вопросов](https://github.com/nypucjiam-create/ENUWay/issues/30)
 
 ## Состав работы
 
