@@ -26,6 +26,7 @@ ENU қауымдастығы ішінде тексерілген пайдала�
 ## Репозиторий құрылымы
 
 - `docs/` — жоба сипаттамасы, келісімдер және ADR;
+- `docs/requirements/` — ЛЗ 4 стейкхолдерлері, story map, бэклог және НФТ;
 - `.github/ISSUE_TEMPLATE/` — зерттеу, функция және ақау тапсырмаларының үлгілері;
 - `project/initial-backlog.csv` — алғашқы backlog;
 - `CONTRIBUTING.md` — жұмыс тәртібі мен Definition of Done.
@@ -34,6 +35,8 @@ ENU қауымдастығы ішінде тексерілген пайдала�
 
 - [GitHub репозиторийі](https://github.com/nypucjiam-create/ENUWay)
 - [ENUWay — MVP Delivery тақтасы](https://github.com/users/nypucjiam-create/projects/3)
+- [ЛЗ 4 артефактілері](docs/requirements/README.md)
+- [Журнал сдач](docs/submission-log.md)
 - Толық конфигурация: [workspace-configuration.md](docs/workspace-configuration.md)
 
 ## AI қолдану туралы ашықтық
