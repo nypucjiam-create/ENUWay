@@ -27,6 +27,8 @@ ENU қауымдастығы ішінде тексерілген пайдала�
 
 - `docs/` — жоба сипаттамасы, келісімдер және ADR;
 - `docs/requirements/` — ЛЗ 4 стейкхолдерлері, story map, бэклог және НФТ;
+- `docs/forecast/` — ЛЗ 6 клиенттік слайды және planning poker хаттамасы;
+- `notebooks/lz6/` — ЛЗ 6 notebook, throughput деректері, графиктер және нәтиже;
 - `.github/ISSUE_TEMPLATE/` — зерттеу, функция және ақау тапсырмаларының үлгілері;
 - `project/initial-backlog.csv` — алғашқы backlog;
 - `CONTRIBUTING.md` — жұмыс тәртібі мен Definition of Done.
@@ -38,6 +40,7 @@ ENU қауымдастығы ішінде тексерілген пайдала�
 - [ЛЗ 4 артефактілері](docs/requirements/README.md)
 - [ЛЗ 5 жеткізу жоспары](docs/plan/README.md)
 - [ЛЗ 6 ықтимал мерзім болжамы](docs/forecast/README.md)
+- [ЛЗ 6 орындалған notebook](notebooks/lz6/lz6-monte-carlo.ipynb)
 - [Журнал сдач](docs/submission-log.md)
 - Толық конфигурация: [workspace-configuration.md](docs/workspace-configuration.md)
 
