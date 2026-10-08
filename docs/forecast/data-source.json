@@ -1,0 +1,11 @@
+{
+  "source_repository": "https://github.com/pallets/click",
+  "github_search_query": "repo:pallets/click is:issue is:closed closed:2026-04-06..2026-10-04",
+  "api_url": "https://api.github.com/search/issues",
+  "period_start": "2026-04-06",
+  "period_end": "2026-10-04",
+  "complete_weeks": 26,
+  "closed_issues": 106,
+  "exported_at_utc": "2026-10-08T10:33:15+00:00",
+  "use_limitation": "External open-source throughput is a proxy, not ENUWay team history."
+}

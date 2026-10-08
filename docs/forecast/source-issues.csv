@@ -1,0 +1,107 @@
+﻿number,title,closed_at_utc,html_url,state_reason
+173,tab completion during interactive prompts,2026-09-01T21:53:58+00:00,https://github.com/pallets/click/issues/173,completed
+654,`click.testing` is not properly proxying `stdout`,2026-04-11T08:32:36+00:00,https://github.com/pallets/click/issues/654,completed
+737,Enable CliRunner to echo output to stdout/stderr,2026-05-16T04:57:47+00:00,https://github.com/pallets/click/issues/737,completed
+843,`click.testing.CliRunner.invoke` prevents use of `pdb`,2026-04-11T09:47:00+00:00,https://github.com/pallets/click/issues/843,completed
+1054,Use function both as API and click function?,2026-09-02T00:24:34+00:00,https://github.com/pallets/click/issues/1054,completed
+1411,Allow a type to customize the prompt,2026-09-02T13:03:32+00:00,https://github.com/pallets/click/issues/1411,not_planned
+1756,[Feature] path and python version values for version message formatting,2026-05-29T06:34:56+00:00,https://github.com/pallets/click/issues/1756,not_planned
+1884,`version_option` doesn't automatically detect version anymore with click 8.0.0,2026-06-13T19:31:56+00:00,https://github.com/pallets/click/issues/1884,completed
+2012,`flag_value` is passed through `ParamType.convert`,2026-04-29T06:47:37+00:00,https://github.com/pallets/click/issues/2012,completed
+2121,`UnicodeEncodeError` on Windows when there are Unicode chars in the help message ,2026-08-20T16:12:12+00:00,https://github.com/pallets/click/issues/2121,completed
+2324,[Feature] Pass `version_option()` to `Command(params=)`,2026-05-29T06:33:38+00:00,https://github.com/pallets/click/issues/2324,not_planned
+2331,`version_option` module name and package name are not equivalent,2026-06-14T20:30:52+00:00,https://github.com/pallets/click/issues/2331,completed
+2582,The `edit` utility does not work on Windows for Visual Studio Code,2026-08-29T04:46:36+00:00,https://github.com/pallets/click/issues/2582,not_planned
+2626,Make ProgressBar type available in public interface,2026-08-19T06:22:52+00:00,https://github.com/pallets/click/issues/2626,completed
+2634,`tests/test_types.py::test_file_surrogates` test is missing the `skipif not _non_utf8_filenames_supported` marker,2026-05-29T03:42:40+00:00,https://github.com/pallets/click/issues/2634,completed
+2745,Modifying `default_map` in callback behaves differently between click 7.1.2 and 8.0.0,2026-04-29T06:41:20+00:00,https://github.com/pallets/click/issues/2745,completed
+2757,document how to create a standalone application,2026-04-17T21:48:17+00:00,https://github.com/pallets/click/issues/2757,completed
+2764,Provide suggestions for misspelled subcommands,2026-04-30T07:05:53+00:00,https://github.com/pallets/click/issues/2764,completed
+2779,Wrong error message when wrong multicharacter short option is passed,2026-05-15T15:03:40+00:00,https://github.com/pallets/click/issues/2779,completed
+2790,Nested command option shadowing `-h` prints wrong suggestion,2026-04-29T07:01:42+00:00,https://github.com/pallets/click/issues/2790,completed
+2802,"No typing info for `click.argument(...,  shell_complete=callable)`",2026-05-18T18:35:31+00:00,https://github.com/pallets/click/issues/2802,completed
+2809,`@click.Option` with `'hide_input' = True` (used for password) and custom `type` parameter doesn't show custom error message,2026-05-14T05:01:11+00:00,https://github.com/pallets/click/issues/2809,completed
+2819,help not resolving automatically,2026-07-10T03:24:09+00:00,https://github.com/pallets/click/issues/2819,completed
+2827,No stdout/stderr is captured with `invoke` during tests in combination with structlog,2026-05-16T04:57:47+00:00,https://github.com/pallets/click/issues/2827,completed
+2836,`show_default` as a string isn't used in prompts as the default shown,2026-04-16T08:30:02+00:00,https://github.com/pallets/click/issues/2836,completed
+2839,Docs Rewrite,2026-05-31T22:39:42+00:00,https://github.com/pallets/click/issues/2839,completed
+2865,`CliRunner` terminates with `io.UnsupportedOperation` when using `faulthandler`,2026-04-16T08:19:55+00:00,https://github.com/pallets/click/issues/2865,completed
+2868,Regression: `click.launch()` broken on Windows in version 8.1.8,2026-05-19T18:58:46+00:00,https://github.com/pallets/click/issues/2868,completed
+2869,Support pathlib.Path in edit filename,2026-08-20T02:50:21+00:00,https://github.com/pallets/click/issues/2869,completed
+2877,[Python forward compat] click.types.Path.covert: BytesWarning: Comparison between bytes and string,2026-07-03T01:11:49+00:00,https://github.com/pallets/click/issues/2877,completed
+2879,Reorder ParameterSource,2026-04-16T08:28:39+00:00,https://github.com/pallets/click/issues/2879,completed
+2886,Move current docs to myst,2026-05-22T03:46:39+00:00,https://github.com/pallets/click/issues/2886,completed
+2899,running tests in parallel with `tox p` fails,2026-05-29T06:16:59+00:00,https://github.com/pallets/click/issues/2899,completed
+2943,_pipepager() fails with mutli-call binaries,2026-08-18T07:11:40+00:00,https://github.com/pallets/click/issues/2943,completed
+2968,backspace and line-wrapping acting strange on Linux,2026-04-29T23:20:24+00:00,https://github.com/pallets/click/issues/2968,completed
+2983,Add `help` to argument parameter,2026-05-28T07:30:46+00:00,https://github.com/pallets/click/issues/2983,completed
+2986,Drop `colorama`,2026-05-24T14:30:07+00:00,https://github.com/pallets/click/issues/2986,completed
+2994,`launch()` cannot locate files with spaces in the name on Windows,2026-05-19T16:47:11+00:00,https://github.com/pallets/click/issues/2994,completed
+3015,Choice autocomplete incorrect for enums,2026-05-22T03:40:49+00:00,https://github.com/pallets/click/issues/3015,completed
+3043,Multi-line help text is not handled correctly in fish,2026-04-29T23:37:33+00:00,https://github.com/pallets/click/issues/3043,completed
+3044,`decorators.pyi` interface file?,2026-05-19T23:55:04+00:00,https://github.com/pallets/click/issues/3044,completed
+3045,Allow optional argument(s) to precede mandatory argument(s),2026-05-19T23:59:28+00:00,https://github.com/pallets/click/issues/3045,completed
+3059,"With `invoke_without_command` set, commands are not marked as optional",2026-05-27T19:23:21+00:00,https://github.com/pallets/click/issues/3059,completed
+3067,`pyright --verifytypes` reports incomplete coverage,2026-05-18T17:35:20+00:00,https://github.com/pallets/click/issues/3067,completed
+3099,Make unimported utilities explicitely private,2026-07-17T19:24:59+00:00,https://github.com/pallets/click/issues/3099,completed
+3105,`FuncParamType` should use `ValueError` for `self.fail(message)`,2026-05-08T13:47:49+00:00,https://github.com/pallets/click/issues/3105,completed
+3107,Suggest `Did you mean` for misspelled commands,2026-04-29T23:53:16+00:00,https://github.com/pallets/click/issues/3107,completed
+3111,"New ""default"" behaviour in Click 8.3.x is broken for negative boolean flags",2026-04-16T08:19:55+00:00,https://github.com/pallets/click/issues/3111,completed
+3125,`version_option` ignores `package_name`,2026-06-14T20:31:27+00:00,https://github.com/pallets/click/issues/3125,completed
+3135,Add support for partial shell completion options like in Path,2026-09-01T10:12:56+00:00,https://github.com/pallets/click/issues/3135,completed
+3157,Add flask test to click,2026-04-19T09:04:01+00:00,https://github.com/pallets/click/issues/3157,completed
+3161,Investigate adding Lint to pre-commit and CI using Ruff to ensure always using `import typing as t`,2026-05-19T23:16:44+00:00,https://github.com/pallets/click/issues/3161,completed
+3164,`click.launch()` does not work for (non local) urls on Windows,2026-04-29T23:25:39+00:00,https://github.com/pallets/click/issues/3164,completed
+3242,Flush `stdin` after writing to a pager,2026-06-03T11:48:27+00:00,https://github.com/pallets/click/issues/3242,completed
+3277,zsh completion setup fails with 'parse error near elif',2026-05-18T19:18:06+00:00,https://github.com/pallets/click/issues/3277,completed
+3298,semver.Version as default causing an error,2026-04-08T21:31:00+00:00,https://github.com/pallets/click/issues/3298,completed
+3336,Optional value pattern with `is_flag=False` is broken,2026-04-14T06:42:00+00:00,https://github.com/pallets/click/issues/3336,duplicate
+3342,Release 8.3.3,2026-04-23T14:06:09+00:00,https://github.com/pallets/click/issues/3342,completed
+3347,"FloatRange accepts NaN, bypassing range validation",2026-04-17T12:54:30+00:00,https://github.com/pallets/click/issues/3347,not_planned
+3349,Generates broken completions for mac with bash 3,2026-04-17T12:51:38+00:00,https://github.com/pallets/click/issues/3349,not_planned
+3360,Empty output from `HelpFormatter.write_usage` for a program without arguments,2026-05-16T15:53:41+00:00,https://github.com/pallets/click/issues/3360,completed
+3384,Click 8.3.3 breaks `pytest` when stream `fd` is duplicated,2026-05-16T04:57:47+00:00,https://github.com/pallets/click/issues/3384,completed
+3403,"""default"" behaviour in Click 8.3.x changes with enable/disable boolean flag pair",2026-05-16T04:44:50+00:00,https://github.com/pallets/click/issues/3403,completed
+3416,"_pipepager mis-detects raw-mode flag, enabling color from any 'r'/'R' substring in $LESS or filename args",2026-05-10T02:54:33+00:00,https://github.com/pallets/click/issues/3416,completed
+3417,"_pipepager mis-detects raw-mode flag, enabling color from any 'r'/'R' substring in $LESS or filename args",2026-05-10T02:56:33+00:00,https://github.com/pallets/click/issues/3417,completed
+3435,Release 8.4.0,2026-05-17T05:14:06+00:00,https://github.com/pallets/click/issues/3435,completed
+3449,"""I/O operation on closed file"" error with CliRunner and echo_via_pager under 8.4",2026-05-22T03:40:29+00:00,https://github.com/pallets/click/issues/3449,completed
+3458,`get_parameter_source()` returns `None` in 8.4.0,2026-05-21T15:21:00+00:00,https://github.com/pallets/click/issues/3458,completed
+3476,`test_flag_group_competition_duplicate_option_name` relies on `-Werror`,2026-06-13T19:00:52+00:00,https://github.com/pallets/click/issues/3476,completed
+3481,Remove Python 2 utilities and little used utilities,2026-07-17T19:25:00+00:00,https://github.com/pallets/click/issues/3481,completed
+3487,Echoing empty bytes or bytearray raises TypeError,2026-05-21T22:46:09+00:00,https://github.com/pallets/click/issues/3487,completed
+3489,Advanced Patterns example uses Python 2 `urllib.urlopen`,2026-05-27T07:28:45+00:00,https://github.com/pallets/click/issues/3489,completed
+3497,heyy their,2026-05-22T06:04:54+00:00,https://github.com/pallets/click/issues/3497,completed
+3501,`isolated_filesystem()` is not thread safe,2026-05-29T20:05:05+00:00,https://github.com/pallets/click/issues/3501,completed
+3502,fish completion is broken in 8.4.1,2026-05-23T07:05:18+00:00,https://github.com/pallets/click/issues/3502,completed
+3547,FloatRange with clamp=True returns int when the boundary was given as an int,2026-06-03T03:56:25+00:00,https://github.com/pallets/click/issues/3547,not_planned
+3571,`click.progressbar` doesn't show full completion when using `show_pos=True` combined with `update_min_steps`,2026-08-15T17:56:59+00:00,https://github.com/pallets/click/issues/3571,completed
+3572,ANSI codes not stripped from click.confirm after upgrading to click 8.4,2026-07-02T23:39:11+00:00,https://github.com/pallets/click/issues/3572,completed
+3612,Release 8.4.2,2026-07-01T04:53:55+00:00,https://github.com/pallets/click/issues/3612,completed
+3628,Native colorized help text,2026-06-23T08:40:32+00:00,https://github.com/pallets/click/issues/3628,duplicate
+3662,8.4.x: prompt/confirm(err=True) leaks prompt tail and CliRunner reply echo to stdout on Windows,2026-07-06T15:58:04+00:00,https://github.com/pallets/click/issues/3662,not_planned
+3700,Deprecate `isolated_filesystem()`,2026-07-20T17:43:22+00:00,https://github.com/pallets/click/issues/3700,completed
+3702,confirmation_prompt with a non-empty default loops forever (default can never be confirmed),2026-07-17T22:13:05+00:00,https://github.com/pallets/click/issues/3702,completed
+3716,AI junk,2026-07-23T05:51:40+00:00,https://github.com/pallets/click/issues/3716,not_planned
+3718,AI junk,2026-07-23T05:53:03+00:00,https://github.com/pallets/click/issues/3718,not_planned
+3731,"echo_via_pager on Windows fails with WinError 32, masking a TypeError from writing str to a binary temp file (8.4.0 regression)",2026-07-28T17:42:22+00:00,https://github.com/pallets/click/issues/3731,not_planned
+3732,echo_via_pager broken on Windows since 8.4.0,2026-07-29T00:02:23+00:00,https://github.com/pallets/click/issues/3732,not_planned
+3740,"[Bug] On Windows, get_pager_file returns a typing.BinaryIO object NOT typing.TextIO",2026-08-14T18:51:53+00:00,https://github.com/pallets/click/issues/3740,completed
+3756,Unable to view documentation of released versions,2026-08-11T13:31:32+00:00,https://github.com/pallets/click/issues/3756,completed
+3759,AI junk,2026-08-12T12:47:52+00:00,https://github.com/pallets/click/issues/3759,not_planned
+3760,AI junk,2026-08-12T12:49:07+00:00,https://github.com/pallets/click/issues/3760,not_planned
+3766,"docs/contributing.md describes .github/workflows/test-flask.yaml, which was removed in 97b300c",2026-08-15T22:55:06+00:00,https://github.com/pallets/click/issues/3766,completed
+3786,release 8.5.0,2026-08-25T01:48:50+00:00,https://github.com/pallets/click/issues/3786,completed
+3788,support @click.argument(hidden=True),2026-08-22T13:31:59+00:00,https://github.com/pallets/click/issues/3788,not_planned
+3802,`KeyboardInterrupt` during `click.prompt()` can race,2026-08-31T23:42:42+00:00,https://github.com/pallets/click/issues/3802,completed
+3822,`click.Path` should be generic on `path_type`,2026-09-08T19:48:57+00:00,https://github.com/pallets/click/issues/3822,completed
+3824,"[rejected AI] Atomic `open_file`: path-based `chmod` can follow a symlink, and a failed `chmod` leaks the fd",2026-09-01T12:40:16+00:00,https://github.com/pallets/click/issues/3824,not_planned
+3831,"Nightly ""Stress"" jobs run the normal test suite; the stress tests never execute",2026-09-02T23:16:08+00:00,https://github.com/pallets/click/issues/3831,not_planned
+3832,Terminal escape-sequence injection in error messages,2026-09-03T14:35:53+00:00,https://github.com/pallets/click/issues/3832,not_planned
+3838,[rejected AI] Literal mutable default silently accumulates mutations across CliRunner.invoke() calls with a pass-through ParamType,2026-09-04T18:14:57+00:00,https://github.com/pallets/click/issues/3838,not_planned
+3841,[rejected AI] count=True ignores non-zero default when counting flags,2026-09-06T12:50:52+00:00,https://github.com/pallets/click/issues/3841,not_planned
+3843,[rejected AI] Envvar for multiple=True + nargs>1 silently drops incomplete trailing tokens,2026-09-06T12:51:39+00:00,https://github.com/pallets/click/issues/3843,not_planned
+3846,[rejected AI] `BOOL` raises `AttributeError` on numeric input since 8.2.2,2026-09-06T12:54:14+00:00,https://github.com/pallets/click/issues/3846,not_planned
+3875,[rejected AI] test permission probe please ignore,2026-09-17T23:48:05+00:00,https://github.com/pallets/click/issues/3875,not_planned
+3879,[rejected AI] Case-insensitive Choice completion misses Unicode case-folding matches,2026-09-24T15:31:18+00:00,https://github.com/pallets/click/issues/3879,not_planned
+3881,[rejected AI] click.Path.to_info_dict() and PathInfoDict omit resolve_path and executable,2026-09-24T18:03:25+00:00,https://github.com/pallets/click/issues/3881,not_planned
