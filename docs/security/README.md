@@ -6,6 +6,7 @@
 - [RAID журналы](raid.md) және [CSV нұсқасы](raid-log.csv)
 - [STRIDE сипаттамасы](threat-model.md)
 - [OWASP Threat Dragon моделі](enuway-auth-threat-model.json)
+- [Threat Dragon автоматты түрде танитын модель](../../ThreatDragonModels/ENUWay-auth-threat-model.json)
 - [Threat model PNG](enuway-auth-threat-model.png)
 - [Сәйкестік чек-листі](compliance-checklist.md)
 - [Trivy және gitleaks қорытындысы](scan-summary.md)
@@ -27,3 +28,10 @@
 - шаралардан кейінгі қалдық EMV: 29.92 сағат, жоспарлық резерв 30 сағат;
 - STRIDE-тің 6 санаты толық қамтылған;
 - Trivy: 0 репозиторий finding; gitleaks: 13 commit, 0 verified leak.
+
+## Threat Dragon тексеруі
+
+- модель 15.10.2026 күні OWASP Threat Dragon v2.6.2 веб-нұсқасында импортталды;
+- Threat Dragon 1.x JSON құрылымын 2.x форматына сәтті түрлендірді;
+- ENUWay Auth DFD диаграммасы редакторда ашылды;
+- автоматты есеп 12 threat instance көрсетті: 6 High және 6 Medium; қайталанатын instance-терді біріктіргенде STRIDE-тің 6 бірегей санаты қамтылған.
