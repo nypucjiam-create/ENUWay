@@ -21,7 +21,7 @@
     "diagrams": [
       {
         "title": "ENUWay Auth DFD",
-        "thumbnail": "./enuway-auth-threat-model.png",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "diagramType": "STRIDE",
         "id": 0,
         "size": {
