@@ -2,7 +2,8 @@
   "summary": {
     "title": "ENUWay аутентификация модулінің STRIDE моделі",
     "owner": "3-қатысушы",
-    "description": "ENU пайдаланушысын растау, сессия ашу, User DB және аудит журналы."
+    "description": "ENU пайдаланушысын растау, сессия ашу, User DB және аудит журналы.",
+    "id": 0
   },
   "detail": {
     "contributors": [
