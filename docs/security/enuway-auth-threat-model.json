@@ -1,0 +1,632 @@
+{
+  "summary": {
+    "title": "ENUWay аутентификация модулінің STRIDE моделі",
+    "owner": "3-қатысушы",
+    "description": "ENU пайдаланушысын растау, сессия ашу, User DB және аудит журналы."
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Нұрислам"
+      },
+      {
+        "name": "2-қатысушы"
+      },
+      {
+        "name": "3-қатысушы"
+      }
+    ],
+    "reviewer": "Нұрислам",
+    "diagrams": [
+      {
+        "title": "ENUWay Auth DFD",
+        "thumbnail": "./enuway-auth-threat-model.png",
+        "diagramType": "STRIDE",
+        "id": 0,
+        "size": {
+          "height": 550,
+          "width": 1100
+        },
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 30,
+                "y": 250
+              },
+              "angle": 0,
+              "id": "beb7006a-44ff-5d0f-bc51-7e0cbde0e6dc",
+              "z": 1,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "ENU пайдаланушысын немесе сессияны қолдан жасау",
+                  "type": "Spoofing",
+                  "description": "Шабуылшы ұрланған растау сілтемесін, қайта қолданылған токенді немесе brute force арқылы бөтен сессияны иеленеді.",
+                  "mitigation": "Бір реттік 15 минуттық токен, rate limit, сессияны қайтарып алу, ENU domain allowlist.",
+                  "modelType": "STRIDE",
+                  "threatId": "d230be63-c38f-5b4f-98b7-2d74a06a33c1",
+                  "number": 0
+                }
+              ],
+              "outOfScope": false,
+              "hasOpenThreats": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "ENU пайдаланушысы"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 150,
+                "height": 90
+              },
+              "position": {
+                "x": 260,
+                "y": 240
+              },
+              "angle": 0,
+              "id": "1507dcfd-7b9d-5d7b-9be8-f160e70b7d32",
+              "z": 2,
+              "threats": [],
+              "outOfScope": false,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Web қолданба"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              },
+              "privilegeLevel": "Browser"
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 170,
+                "height": 120
+              },
+              "position": {
+                "x": 520,
+                "y": 220
+              },
+              "angle": 0,
+              "id": "34c81007-a81e-5500-a392-ceba1011e028",
+              "z": 3,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Рөл немесе бронь дерегін өзгерту",
+                  "type": "Tampering",
+                  "description": "Клиент request ішіндегі userId, role немесе seats мәнін өзгертіп, серверлік ережені айналып өтеді.",
+                  "mitigation": "Серверлік schema validation, deny-by-default RBAC, CSRF қорғанысы, атомарлық транзакция.",
+                  "modelType": "STRIDE",
+                  "threatId": "a132e9e7-84fd-56d2-b307-d5230c38b8ad",
+                  "number": 1
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Кіру мен растауды сұраулармен басу",
+                  "type": "Denial of service",
+                  "description": "Көптеген кіру немесе растау сұрауы API мен хабарлама арнасын толтырады.",
+                  "mitigation": "IP және account rate limit, 429 жауабы, кезек лимиті, circuit breaker және метрика.",
+                  "modelType": "STRIDE",
+                  "threatId": "f9e94c36-c56b-58b3-8557-c0cb4554e5d9",
+                  "number": 4
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "Moderator құқығын заңсыз алу",
+                  "type": "Elevation of privilege",
+                  "description": "Қарапайым user клиент өрісін өзгерту немесе әлсіз endpoint арқылы moderator әрекетін орындайды.",
+                  "mitigation": "Рөлді тек серверден алу, әр endpoint-те authorization, privilege-change audit және теріс тесттер.",
+                  "modelType": "STRIDE",
+                  "threatId": "0fd38a09-7fcd-535b-a463-61ca35bc9b6c",
+                  "number": 5
+                }
+              ],
+              "outOfScope": false,
+              "hasOpenThreats": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Auth API"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              },
+              "privilegeLevel": "Service"
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 520,
+                "y": 40
+              },
+              "angle": 0,
+              "id": "3d9f7582-5094-5495-96f4-cd2c14577088",
+              "z": 4,
+              "threats": [],
+              "outOfScope": false,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "ENU растау арнасы"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 820,
+                "y": 170
+              },
+              "angle": 0,
+              "id": "91f7df49-3145-56e1-8745-aae04caa199f",
+              "z": 5,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "Профиль және сапар деректерінің ашылуы",
+                  "type": "Information disclosure",
+                  "description": "Қате рөлдік тексеру немесе артық лог email, телефон, бағыт пен шағым дерегін көрсетеді.",
+                  "mitigation": "Field-level masking, least privilege, TLS, rest encryption, логта PII жазбау, сақтау мерзімі.",
+                  "modelType": "STRIDE",
+                  "threatId": "dda4aa6d-20ed-56d7-9604-77789a1b4532",
+                  "number": 3
+                }
+              ],
+              "outOfScope": false,
+              "hasOpenThreats": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "User DB"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              },
+              "storesCredentials": true,
+              "isEncrypted": true
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 820,
+                "y": 360
+              },
+              "angle": 0,
+              "id": "02118dcf-1215-5f7f-8c92-78837be9b37c",
+              "z": 6,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Пайдаланушы әрекетін жоққа шығару",
+                  "type": "Repudiation",
+                  "description": "Пайдаланушы кіруді, броньды не модератор шешімін жасағанын жоққа шығарады, ал дәлел жеткіліксіз.",
+                  "mitigation": "Append-only аудит, correlation ID, actor ID, уақыт және нәтиже; журналды 1 жыл сақтау.",
+                  "modelType": "STRIDE",
+                  "threatId": "565a1de4-282d-5f84-82b1-c3aed061e83c",
+                  "number": 2
+                }
+              ],
+              "outOfScope": false,
+              "hasOpenThreats": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Audit log"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              },
+              "isALog": true,
+              "isEncrypted": true
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 235,
+                "y": 15
+              },
+              "target": {
+                "x": 735,
+                "y": 480
+              },
+              "vertices": [
+                {
+                  "x": 735,
+                  "y": 15
+                },
+                {
+                  "x": 735,
+                  "y": 480
+                },
+                {
+                  "x": 235,
+                  "y": 480
+                }
+              ],
+              "id": "c0e62557-fbcb-5869-b35d-2e1f3af267e8",
+              "z": 7,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 790,
+                "y": 120
+              },
+              "target": {
+                "x": 1020,
+                "y": 490
+              },
+              "vertices": [
+                {
+                  "x": 1020,
+                  "y": 120
+                },
+                {
+                  "x": 1020,
+                  "y": 490
+                },
+                {
+                  "x": 790,
+                  "y": 490
+                }
+              ],
+              "id": "7864bbf4-f86c-5878-84d2-0c240aa328b3",
+              "z": 8,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "beb7006a-44ff-5d0f-bc51-7e0cbde0e6dc"
+              },
+              "target": {
+                "id": "1507dcfd-7b9d-5d7b-9be8-f160e70b7d32"
+              },
+              "vertices": [],
+              "id": "a1c424b3-d933-5c5c-8ef0-4b9e33c48430",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "HTTPS кіру және растау",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 9,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "ENU пайдаланушысын немесе сессияны қолдан жасау",
+                  "type": "Spoofing",
+                  "description": "Шабуылшы ұрланған растау сілтемесін, қайта қолданылған токенді немесе brute force арқылы бөтен сессияны иеленеді.",
+                  "mitigation": "Бір реттік 15 минуттық токен, rate limit, сессияны қайтарып алу, ENU domain allowlist.",
+                  "modelType": "STRIDE",
+                  "threatId": "d230be63-c38f-5b4f-98b7-2d74a06a33c1",
+                  "number": 0
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Кіру мен растауды сұраулармен басу",
+                  "type": "Denial of service",
+                  "description": "Көптеген кіру немесе растау сұрауы API мен хабарлама арнасын толтырады.",
+                  "mitigation": "IP және account rate limit, 429 жауабы, кезек лимиті, circuit breaker және метрика.",
+                  "modelType": "STRIDE",
+                  "threatId": "f9e94c36-c56b-58b3-8557-c0cb4554e5d9",
+                  "number": 4
+                }
+              ],
+              "isPublicNetwork": true,
+              "isEncrypted": true,
+              "protocol": "HTTPS",
+              "outOfScope": false,
+              "hasOpenThreats": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "1507dcfd-7b9d-5d7b-9be8-f160e70b7d32"
+              },
+              "target": {
+                "id": "34c81007-a81e-5500-a392-ceba1011e028"
+              },
+              "vertices": [],
+              "id": "b5864cc6-02ee-5852-aad1-c34125edb961",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "HTTPS auth request",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 10,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Рөл немесе бронь дерегін өзгерту",
+                  "type": "Tampering",
+                  "description": "Клиент request ішіндегі userId, role немесе seats мәнін өзгертіп, серверлік ережені айналып өтеді.",
+                  "mitigation": "Серверлік schema validation, deny-by-default RBAC, CSRF қорғанысы, атомарлық транзакция.",
+                  "modelType": "STRIDE",
+                  "threatId": "a132e9e7-84fd-56d2-b307-d5230c38b8ad",
+                  "number": 1
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "Moderator құқығын заңсыз алу",
+                  "type": "Elevation of privilege",
+                  "description": "Қарапайым user клиент өрісін өзгерту немесе әлсіз endpoint арқылы moderator әрекетін орындайды.",
+                  "mitigation": "Рөлді тек серверден алу, әр endpoint-те authorization, privilege-change audit және теріс тесттер.",
+                  "modelType": "STRIDE",
+                  "threatId": "0fd38a09-7fcd-535b-a463-61ca35bc9b6c",
+                  "number": 5
+                }
+              ],
+              "isPublicNetwork": false,
+              "isEncrypted": true,
+              "protocol": "HTTPS",
+              "outOfScope": false,
+              "hasOpenThreats": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "34c81007-a81e-5500-a392-ceba1011e028"
+              },
+              "target": {
+                "id": "3d9f7582-5094-5495-96f4-cd2c14577088"
+              },
+              "vertices": [],
+              "id": "c213bbc7-367b-5c7b-a0a5-5c39d2151b80",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "ENU email verification",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
+              "threats": [],
+              "isPublicNetwork": false,
+              "isEncrypted": true,
+              "protocol": "HTTPS",
+              "outOfScope": false,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "34c81007-a81e-5500-a392-ceba1011e028"
+              },
+              "target": {
+                "id": "91f7df49-3145-56e1-8745-aae04caa199f"
+              },
+              "vertices": [],
+              "id": "1094cefc-f469-5187-8ebc-82a9126f20b9",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Профиль және credential hash",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "Профиль және сапар деректерінің ашылуы",
+                  "type": "Information disclosure",
+                  "description": "Қате рөлдік тексеру немесе артық лог email, телефон, бағыт пен шағым дерегін көрсетеді.",
+                  "mitigation": "Field-level masking, least privilege, TLS, rest encryption, логта PII жазбау, сақтау мерзімі.",
+                  "modelType": "STRIDE",
+                  "threatId": "dda4aa6d-20ed-56d7-9604-77789a1b4532",
+                  "number": 3
+                }
+              ],
+              "isPublicNetwork": false,
+              "isEncrypted": true,
+              "protocol": "HTTPS",
+              "outOfScope": false,
+              "hasOpenThreats": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "34c81007-a81e-5500-a392-ceba1011e028"
+              },
+              "target": {
+                "id": "02118dcf-1215-5f7f-8c92-78837be9b37c"
+              },
+              "vertices": [],
+              "id": "c7953e21-e280-5b0c-a165-e7c4b281a349",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Audit event",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 13,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Пайдаланушы әрекетін жоққа шығару",
+                  "type": "Repudiation",
+                  "description": "Пайдаланушы кіруді, броньды не модератор шешімін жасағанын жоққа шығарады, ал дәлел жеткіліксіз.",
+                  "mitigation": "Append-only аудит, correlation ID, actor ID, уақыт және нәтиже; журналды 1 жыл сақтау.",
+                  "modelType": "STRIDE",
+                  "threatId": "565a1de4-282d-5f84-82b1-c3aed061e83c",
+                  "number": 2
+                }
+              ],
+              "isPublicNetwork": false,
+              "isEncrypted": true,
+              "protocol": "HTTPS",
+              "outOfScope": false,
+              "hasOpenThreats": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

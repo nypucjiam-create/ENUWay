@@ -1,0 +1,118 @@
+{
+  "SchemaVersion": 2,
+  "Trivy": {
+    "Version": "0.76.0"
+  },
+  "ReportID": "01a13bbf-c2f7-7b18-a791-5280d9d70772",
+  "CreatedAt": "2026-10-14T23:49:45.4637272+05:00",
+  "ArtifactID": "sha256:930b93af3ded32f62509d0e001d5140dcf5af47f0a7cbae03e940c343e98ed89",
+  "ArtifactName": ".",
+  "ArtifactType": "repository",
+  "Metadata": {
+    "RepoURL": "https://github.com/nypucjiam-create/ENUWay.git",
+    "Branch": "main",
+    "Commit": "c28daaeeabf443f5f3565d81019c7939634f85b8",
+    "CommitMsg": "docs: align LZ 6 forecast with methodology",
+    "Author": "nypucjiam-create \u003cnypucjiam-create@users.noreply.github.com\u003e",
+    "Committer": "nypucjiam-create \u003cnypucjiam-create@users.noreply.github.com\u003e"
+  },
+  "Results": [
+    {
+      "Target": "notebooks/lz6/requirements.txt",
+      "Class": "lang-pkgs",
+      "Type": "pip",
+      "Packages": [
+        {
+          "Name": "jupyterlab",
+          "Identifier": {
+            "PURL": "pkg:pypi/jupyterlab@4.6.4",
+            "UID": "7aa8f589e36dc743"
+          },
+          "Version": "4.6.4",
+          "Locations": [
+            {
+              "StartLine": 6,
+              "EndLine": 6
+            }
+          ],
+          "AnalyzedBy": "pip"
+        },
+        {
+          "Name": "matplotlib",
+          "Identifier": {
+            "PURL": "pkg:pypi/matplotlib@3.11.2",
+            "UID": "5faba71103071bf6"
+          },
+          "Version": "3.11.2",
+          "Locations": [
+            {
+              "StartLine": 3,
+              "EndLine": 3
+            }
+          ],
+          "AnalyzedBy": "pip"
+        },
+        {
+          "Name": "nbclient",
+          "Identifier": {
+            "PURL": "pkg:pypi/nbclient@0.11.0",
+            "UID": "2e1e4f84bd1ed300"
+          },
+          "Version": "0.11.0",
+          "Locations": [
+            {
+              "StartLine": 5,
+              "EndLine": 5
+            }
+          ],
+          "AnalyzedBy": "pip"
+        },
+        {
+          "Name": "nbformat",
+          "Identifier": {
+            "PURL": "pkg:pypi/nbformat@5.11.1",
+            "UID": "c6bd1f9de645825b"
+          },
+          "Version": "5.11.1",
+          "Locations": [
+            {
+              "StartLine": 4,
+              "EndLine": 4
+            }
+          ],
+          "AnalyzedBy": "pip"
+        },
+        {
+          "Name": "numpy",
+          "Identifier": {
+            "PURL": "pkg:pypi/numpy@2.5.3",
+            "UID": "f179930c5636e182"
+          },
+          "Version": "2.5.3",
+          "Locations": [
+            {
+              "StartLine": 1,
+              "EndLine": 1
+            }
+          ],
+          "AnalyzedBy": "pip"
+        },
+        {
+          "Name": "pandas",
+          "Identifier": {
+            "PURL": "pkg:pypi/pandas@3.0.6",
+            "UID": "2e1aee92c65b3b03"
+          },
+          "Version": "3.0.6",
+          "Locations": [
+            {
+              "StartLine": 2,
+              "EndLine": 2
+            }
+          ],
+          "AnalyzedBy": "pip"
+        }
+      ]
+    }
+  ]
+}

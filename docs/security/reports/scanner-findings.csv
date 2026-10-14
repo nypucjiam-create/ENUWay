@@ -1,0 +1,5 @@
+﻿scanner,version,scope,finding_type,count,status,run_date
+Trivy,0.76.0,Git tracked workspace; .venv excluded,Vulnerability,0,Passed,14.10.2026
+Trivy,0.76.0,Git tracked workspace; .venv excluded,Secret,0,Passed,14.10.2026
+Trivy,0.76.0,Git tracked workspace; .venv excluded,Misconfiguration,0,Passed,14.10.2026
+gitleaks,8.30.1,13 Git commits,Verified leak,0,Passed,14.10.2026
