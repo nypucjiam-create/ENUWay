@@ -43,6 +43,7 @@ ENU қауымдастығы ішінде тексерілген пайдала�
 - [ЛЗ 6 ықтимал мерзім болжамы](docs/forecast/README.md)
 - [ЛЗ 6 орындалған notebook](notebooks/lz6/lz6-monte-carlo.ipynb)
 - [ЛЗ 7 тәуекелдер, STRIDE және сәйкестік](docs/security/README.md)
+- [ЛЗ 8 SoW SLA SLO бюджет және рубеждік бақылау](docs/commercial/README.md)
 - [Журнал сдач](docs/submission-log.md)
 - Толық конфигурация: [workspace-configuration.md](docs/workspace-configuration.md)
 
