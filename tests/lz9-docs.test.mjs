@@ -25,3 +25,20 @@ test('retrospective contains exactly one measurable action with owner deadline a
   assert.match(text, /13\.10\.2026/);
   assert.match(text, /кемінде 3/);
 });
+
+test('live board configuration is recorded with the final column order and native limits', () => {
+  const text = read('docs/process/board-configuration.md');
+  assert.match(text, /Backlog → Ready → In Progress → Waiting → Review → Done/);
+  for (const limit of ['Ready — 6', 'In Progress — 6', 'Waiting — 2', 'Review — 3']) {
+    assert.match(text, new RegExp(limit));
+  }
+  assert.match(text, /github\.com\/users\/nypucjiam-create\/projects\/3/);
+});
+
+test('methodology checklist maps every required evidence category and keeps the data limitation explicit', () => {
+  const text = read('docs/process/methodology-checklist.md');
+  for (const requirement of ['DoR', 'DoD', 'throughput', 'p85', 'Little’s Law', 'CFD', 'ретроспектива']) {
+    assert.match(text, new RegExp(requirement, 'i'));
+  }
+  assert.match(text, /тарихи Done қозғалысы жоқ/);
+});

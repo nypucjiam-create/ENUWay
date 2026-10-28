@@ -63,6 +63,9 @@ CFD Спринт 2-де бір элементтің 8 қазанға дейін 
 
 ## Артефактілер
 
+- [ENUWay — MVP Delivery GitHub Projects тақтасы](https://github.com/users/nypucjiam-create/projects/3) — нақты кезеңдер мен WIP шектері;
+- `board-configuration.md` — тақта колонкаларының реті, орнатылған шектер және тексеру күні;
+- `methodology-checklist.md` — әдістеменің әр талабын артефактімен сәйкестендіру;
 - `lz9-tracker-export.csv` — жұмыс элементтерінің дәлелді журналы;
 - `lz9-event-log.csv` — In Progress және Done оқиғалары;
 - `lz9-flow-metrics.xlsx` — метрикалар, CFD және салыстыру;
