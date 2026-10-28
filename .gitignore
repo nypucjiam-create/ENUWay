@@ -8,3 +8,5 @@ __pycache__/
 ~$*.docx
 dist/
 build/
+tools/lz9-artifact/node_modules/
+docs/process/.qa/

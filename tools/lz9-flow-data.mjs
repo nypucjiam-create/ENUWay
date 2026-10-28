@@ -140,7 +140,7 @@ export function buildDailyCfd(items) {
       }
       rows.push({
         sprint,
-        date: cursor.toISOString().slice(0, 10),
+        date: new Date(cursor.getTime() + 5 * HOUR).toISOString().slice(0, 10),
         backlog,
         inProgress,
         done,

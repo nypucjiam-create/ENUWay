@@ -37,6 +37,10 @@ test('daily CFD is monotonic for Done and conserves total items', () => {
       assert.equal(row.backlog + row.inProgress + row.done, items.filter((item) => item.sprint === sprint).length);
     }
   }
+  assert.equal(rows.find((row) => row.sprint === 'Спринт 1').date, '2026-09-16');
+  assert.equal(rows.filter((row) => row.sprint === 'Спринт 1').at(-1).date, '2026-09-29');
+  assert.equal(rows.find((row) => row.sprint === 'Спринт 2').date, '2026-09-30');
+  assert.equal(rows.filter((row) => row.sprint === 'Спринт 2').at(-1).date, '2026-10-13');
 });
 
 test('CSV artifacts disclose reconstruction source and include transition evidence', () => {
