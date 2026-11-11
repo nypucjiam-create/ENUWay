@@ -1,0 +1,2 @@
+﻿run_number,run_id,commit_sha,commit_time,completed_at,conclusion,lead_time_minutes,url
+1,43113866153,e4303fb,2026-11-11T22:41:21+00:00,2026-11-11T22:41:38+00:00,failure,0.28,https://github.com/nypucjiam-create/ENUWay/actions/runs/43113866153
