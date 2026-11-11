@@ -1,0 +1,71 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  quality-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Кодты алу
+        uses: actions/checkout@v4
+
+      - name: Python 3.12 орнату
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Тәуелділіктерді орнату
+        run: pip install -r requirements.txt
+
+      - name: Линтер
+        run: ruff check src tests scripts
+
+      - name: Тесттер және қамту шегі
+        run: pytest -q --cov=src --cov-report=term-missing --cov-report=xml --cov-fail-under=60
+
+      - name: Құрастыруды тексеру
+        run: python -m compileall -q src
+
+      - name: Жасанды тест деректерін жасау
+        run: python scripts/generate_test_data.py --seed 20261112 --count 20
+
+      - name: Контейнер бейнесін құрастыру
+        run: docker build -t enuway:${{ github.sha }} .
+
+      - name: Trivy тәуелділік және файл жүйесі сканері
+        uses: aquasecurity/trivy-action@0.28.0
+        with:
+          scan-type: fs
+          scan-ref: .
+          severity: CRITICAL,HIGH
+          ignore-unfixed: true
+          exit-code: '1'
+
+      - name: Gitleaks құпия деректер сканері
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Жеткізу артефактын жинау
+        shell: bash
+        run: |
+          mkdir -p dist
+          tar -czf dist/enuway-${{ github.sha }}.tar.gz src requirements.txt Dockerfile
+
+      - name: Артефактты жариялау
+        uses: actions/upload-artifact@v4
+        with:
+          name: enuway-${{ github.sha }}
+          path: dist/*.tar.gz
+          if-no-files-found: error
+          retention-days: 30
+
