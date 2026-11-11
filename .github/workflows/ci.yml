@@ -64,7 +64,7 @@ jobs:
           tar -czf dist/enuway-${{ github.sha }}.tar.gz src requirements.txt Dockerfile
 
       - name: Артефактты жариялау
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: enuway-${{ github.sha }}
           path: dist/*.tar.gz
