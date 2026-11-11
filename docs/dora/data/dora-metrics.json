@@ -1,13 +1,13 @@
 {
   "observation_started_at": "2026-11-11T22:41:38+00:00",
-  "observation_ended_at": "2026-11-11T22:41:38+00:00",
-  "completed_runs": 1,
-  "successful_deployments": 0,
-  "failed_changes": 1,
-  "deployment_frequency_per_week": 0.0,
-  "median_lead_time_minutes": null,
-  "change_failure_rate_percent": 100.0,
-  "mean_time_to_restore_minutes": null,
-  "recovery_samples": 0,
+  "observation_ended_at": "2026-11-11T22:51:57+00:00",
+  "completed_runs": 5,
+  "successful_deployments": 1,
+  "failed_changes": 4,
+  "deployment_frequency_per_week": 7.0,
+  "median_lead_time_minutes": 2.25,
+  "change_failure_rate_percent": 80.0,
+  "mean_time_to_restore_minutes": 6.8,
+  "recovery_samples": 4,
   "data_limitation": "Қысқа оқу тарихы; нәтиже тұрақты тренд емес."
 }

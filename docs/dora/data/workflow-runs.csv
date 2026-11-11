@@ -1,2 +1,6 @@
 ﻿run_number,run_id,commit_sha,commit_time,completed_at,conclusion,lead_time_minutes,url
 1,43113866153,e4303fb,2026-11-11T22:41:21+00:00,2026-11-11T22:41:38+00:00,failure,0.28,https://github.com/nypucjiam-create/ENUWay/actions/runs/43113866153
+2,43114278018,7442549,2026-11-11T22:44:27+00:00,2026-11-11T22:44:38+00:00,failure,0.18,https://github.com/nypucjiam-create/ENUWay/actions/runs/43114278018
+3,43114399601,a513145,2026-11-11T22:45:19+00:00,2026-11-11T22:45:37+00:00,failure,0.3,https://github.com/nypucjiam-create/ENUWay/actions/runs/43114399601
+4,43114809505,df94b65,2026-11-11T22:48:21+00:00,2026-11-11T22:48:42+00:00,failure,0.35,https://github.com/nypucjiam-create/ENUWay/actions/runs/43114809505
+5,43114986721,1543fc4,2026-11-11T22:49:42+00:00,2026-11-11T22:51:57+00:00,success,2.25,https://github.com/nypucjiam-create/ENUWay/actions/runs/43114986721

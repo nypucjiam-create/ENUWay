@@ -146,9 +146,16 @@ def main() -> None:
     parser.add_argument("--repo", default="nypucjiam-create/ENUWay")
     parser.add_argument("--workflow", default="ci.yml")
     parser.add_argument("--output-dir", type=Path, default=Path("docs/dora/data"))
+    parser.add_argument(
+        "--max-run",
+        type=int,
+        help="Есепті қайта жасау үшін осы нөмірге дейінгі run-дарды ғана қосу",
+    )
     args = parser.parse_args()
 
     runs = collect(args.repo, args.workflow)
+    if args.max_run is not None:
+        runs = [row for row in runs if row["run_number"] <= args.max_run]
     metrics = calculate(runs)
     args.output_dir.mkdir(parents=True, exist_ok=True)
     write_csv(args.output_dir / "workflow-runs.csv", runs)

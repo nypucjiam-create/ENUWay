@@ -44,6 +44,9 @@ ENU қауымдастығы ішінде тексерілген пайдала�
 - [ЛЗ 6 орындалған notebook](notebooks/lz6/lz6-monte-carlo.ipynb)
 - [ЛЗ 7 тәуекелдер, STRIDE және сәйкестік](docs/security/README.md)
 - [ЛЗ 8 SoW SLA SLO бюджет және рубеждік бақылау](docs/commercial/README.md)
+- [ЛЗ 9 жұмыс процесі және екі спринт метрикалары](docs/process/README.md)
+- [ЛЗ 10 CI CD және DORA бақылау тақтасы](docs/dora/README.md)
+- [ЛЗ 11 тестілеу UAT postmortem және runbook](docs/qa/README.md)
 - [Журнал сдач](docs/submission-log.md)
 - Толық конфигурация: [workspace-configuration.md](docs/workspace-configuration.md)
 
