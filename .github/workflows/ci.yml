@@ -15,7 +15,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Кодты алу
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Python 3.12 орнату
         uses: actions/setup-python@v5
