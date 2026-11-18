@@ -1,0 +1,135 @@
+{
+  "run": {
+    "dataset": "C:\\Users\\L\\Documents\\ChatGPT\\Управление IT-проектами\\ENUWay-repo\\evals\\lz12\\dataset.jsonl",
+    "seed": 42,
+    "temperature": 0,
+    "model": "qwen2.5-3b-instruct-q4_k_m.gguf",
+    "server_url": "http://127.0.0.1:8080"
+  },
+  "baseline": {
+    "n": 40,
+    "accuracy": 0.625,
+    "macro_f1": 0.7573,
+    "uncertain_count": 15,
+    "per_class": {
+      "ACCOUNT": {
+        "support": 8,
+        "precision": 1.0,
+        "recall": 0.625,
+        "f1": 0.7692
+      },
+      "SEARCH": {
+        "support": 8,
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333
+      },
+      "RIDE_MANAGEMENT": {
+        "support": 8,
+        "precision": 1.0,
+        "recall": 0.625,
+        "f1": 0.7692
+      },
+      "BOOKING": {
+        "support": 8,
+        "precision": 1.0,
+        "recall": 0.625,
+        "f1": 0.7692
+      },
+      "SAFETY": {
+        "support": 8,
+        "precision": 1.0,
+        "recall": 0.375,
+        "f1": 0.5455
+      }
+    }
+  },
+  "zero_shot": {
+    "n": 40,
+    "accuracy": 0.325,
+    "macro_f1": 0.2949,
+    "uncertain_count": 1,
+    "per_class": {
+      "ACCOUNT": {
+        "support": 8,
+        "precision": 0.2692,
+        "recall": 0.875,
+        "f1": 0.4118
+      },
+      "SEARCH": {
+        "support": 8,
+        "precision": 0.2,
+        "recall": 0.125,
+        "f1": 0.1538
+      },
+      "RIDE_MANAGEMENT": {
+        "support": 8,
+        "precision": 0.6667,
+        "recall": 0.25,
+        "f1": 0.3636
+      },
+      "BOOKING": {
+        "support": 8,
+        "precision": 1.0,
+        "recall": 0.375,
+        "f1": 0.5455
+      },
+      "SAFETY": {
+        "support": 8,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "usage_total": {
+      "completion_tokens": 94,
+      "prompt_tokens": 16571,
+      "total_tokens": 16665
+    },
+    "latency_ms_mean": 2761.5
+  },
+  "few_shot": {
+    "n": 40,
+    "accuracy": 0.45,
+    "macro_f1": 0.4115,
+    "uncertain_count": 0,
+    "per_class": {
+      "ACCOUNT": {
+        "support": 8,
+        "precision": 0.3077,
+        "recall": 1.0,
+        "f1": 0.4706
+      },
+      "SEARCH": {
+        "support": 8,
+        "precision": 0.5,
+        "recall": 0.125,
+        "f1": 0.2
+      },
+      "RIDE_MANAGEMENT": {
+        "support": 8,
+        "precision": 0.4,
+        "recall": 0.25,
+        "f1": 0.3077
+      },
+      "BOOKING": {
+        "support": 8,
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571
+      },
+      "SAFETY": {
+        "support": 8,
+        "precision": 1.0,
+        "recall": 0.125,
+        "f1": 0.2222
+      }
+    },
+    "usage_total": {
+      "completion_tokens": 80,
+      "prompt_tokens": 25971,
+      "total_tokens": 26051
+    },
+    "latency_ms_mean": 3069.6
+  }
+}

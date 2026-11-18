@@ -1,0 +1,37 @@
+{
+  "access_date": "2026-11-19",
+  "measured_on": {
+    "dataset": "C:\\Users\\L\\Documents\\ChatGPT\\Управление IT-проектами\\ENUWay-repo\\evals\\lz12\\dataset.jsonl",
+    "seed": 42,
+    "temperature": 0,
+    "model": "qwen2.5-3b-instruct-q4_k_m.gguf",
+    "server_url": "http://127.0.0.1:8080"
+  },
+  "tokens": {
+    "evaluation_requests": 40,
+    "prompt_tokens_total": 25971,
+    "completion_tokens_total": 80,
+    "average_input_tokens": 649.27,
+    "average_output_tokens": 2.0,
+    "tokenizer": "Qwen2.5 GGUF ішіндегі ашық tokenizer, llama.cpp usage есебі"
+  },
+  "api": {
+    "model": "gpt-6-luna",
+    "input_usd_per_million": 0.1,
+    "output_usd_per_million": 0.5,
+    "source": "https://developers.openai.com/api/docs/pricing",
+    "cost_per_request_usd": 6.593e-05,
+    "monthly_requests": 3000,
+    "monthly_cost_usd": 0.1978,
+    "ten_x_requests": 30000,
+    "ten_x_monthly_cost_usd": 1.9778
+  },
+  "self_hosted": {
+    "configuration": "Hetzner CPX32, Germany/Finland, IPv4-сыз, ҚҚС-сыз",
+    "monthly_cost_usd": 41.99,
+    "source": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/",
+    "break_even_requests_per_month": 636912,
+    "note": "Бұл — есептік сервер тарифі; нақты сервер жалға алынған жоқ. Eval бар ноутбукте тегін орындалды."
+  },
+  "formula": "requests × (avg_input_tokens × input_price/1M + avg_output_tokens × output_price/1M)"
+}
