@@ -1,0 +1,41 @@
+﻿id,difficulty,language,gold,baseline_pred,zero_shot_pred,zero_shot_raw,zero_shot_elapsed_ms,few_shot_pred,few_shot_raw,few_shot_elapsed_ms,text,note
+E001,normal,kk,ACCOUNT,UNCERTAIN,ACCOUNT,ACCOUNT,7302.8,ACCOUNT,A,21198.1,"ENU поштаммен кіре алмай жатырмын, растау коды келмеді.",Тіркелгіге кіру және растау
+E002,normal,kk,ACCOUNT,ACCOUNT,ACCOUNT,A,2945.1,ACCOUNT,A,4231.2,Құпиясөзімді ұмытып қалдым. Аккаунтты қалай қалпына келтіремін?,Құпиясөзді қалпына келтіру
+E003,normal,kk,ACCOUNT,ACCOUNT,ACCOUNT,A,3114.6,ACCOUNT,A,4103.4,"Сессиям өздігінен жабылып қалады, қайта-қайта кіруге тура келеді.",Сессия мәселесі
+E004,normal,kk,ACCOUNT,UNCERTAIN,ACCOUNT,ACCOUNT,1831.0,ACCOUNT,A,1982.0,Профильдегі телефон нөмірін ауыстыра алмаймын.,Профиль деректерін өзгерту
+E005,hard,mixed,ACCOUNT,UNCERTAIN,SAFETY,E,1859.3,ACCOUNT,A,2308.1,Менің ENU email-ым жүйеде танылмайды.,Аралас тілдегі қысқа тіркелгі өтініші
+E006,hard,ru,ACCOUNT,ACCOUNT,ACCOUNT,A,1316.8,ACCOUNT,A,1044.4,аккаунт заблокирован,Өте қысқа өтініш
+E007,normal,kk,ACCOUNT,ACCOUNT,ACCOUNT,A,4114.0,ACCOUNT,A,3188.1,"Басқа адамның құрылғысынан кірген сияқтымын, барлық сессияларды жапқым келеді.",Қауіпсіз сессияны басқару
+E008,normal,kk,ACCOUNT,ACCOUNT,ACCOUNT,A,2626.0,ACCOUNT,A,1918.8,Авторизациядан кейін қайтадан кіру бетіне жібереді.,Кіру циклінің қатесі
+E009,normal,kk,SEARCH,SEARCH,ACCOUNT,A,3329.0,ACCOUNT,A,2609.9,Ертең таңғы сегізде сол жағалаудан университетке баратын көлік бар ма?,Сапар іздеу
+E010,normal,kk,SEARCH,SEARCH,ACCOUNT,A,3469.7,ACCOUNT,A,3067.1,"Маршрут бойынша іздесем, нәтиже шықпайды, бірақ сапар бар деп айтты.",Іздеу нәтижесінің қатесі
+E011,normal,kk,SEARCH,SEARCH,SEARCH,SEARCH,3141.6,SEARCH,B,3007.1,Баға мен бос орын бойынша сүзгіні қайдан қоямын?,Іздеу сүзгілері
+E012,hard,mixed,SEARCH,SEARCH,SAFETY,ENU — К,2791.6,ACCOUNT,A,2373.2,Найти поездку ENU — Косшы на 18:00.,Аралас тілдегі іздеу
+E013,normal,kk,SEARCH,SEARCH,ACCOUNT,A,2715.7,RIDE_MANAGEMENT,C,2918.1,Картадан жақын жүргізушілер көрінбей тұр.,Карта арқылы іздеу
+E014,normal,kk,SEARCH,SEARCH,ACCOUNT,A,2021.0,ACCOUNT,A,2696.0,Қайтар жолға да бірден сапар іздеуге бола ма?,Қайтар сапарды іздеу
+E015,hard,kk,SEARCH,UNCERTAIN,ACCOUNT,ACCOUNT,1883.1,ACCOUNT,A,2783.0,Бүгін кешке үйге жеткізетін адам керек.,"Нақты бағытсыз, бірақ іздеу ниеті бар"
+E016,normal,kk,SEARCH,SEARCH,ACCOUNT,A,1857.6,ACCOUNT,A,2677.1,Іздеу тек ескі сапарларды көрсетіп тұр.,Іздеу деректерінің өзектілігі
+E017,normal,kk,RIDE_MANAGEMENT,RIDE_MANAGEMENT,RIDE_MANAGEMENT,C,2206.4,RIDE_MANAGEMENT,C,2292.6,Жүргізуші ретінде жаңа сапарды қалай жариялаймын?,Сапар құру
+E018,normal,kk,RIDE_MANAGEMENT,RIDE_MANAGEMENT,ACCOUNT,ACCOUNT,2047.1,ACCOUNT,A,2147.7,Жариялаған бағытымның уақытын өзгертуім керек.,Өз сапарын өңдеу
+E019,normal,kk,RIDE_MANAGEMENT,RIDE_MANAGEMENT,ACCOUNT,A,2676.8,ACCOUNT,A,2791.6,"Менің сапарым екі рет жарияланып кетіпті, біреуін өшіріңіз.",Қайталанған жарияланымды жою
+E020,normal,kk,RIDE_MANAGEMENT,UNCERTAIN,ACCOUNT,ACCOUNT,2191.6,ACCOUNT,A,2341.8,Бос орын санын 3-тен 2-ге ауыстыра алмай жатырмын.,Сыйымдылықты өзгерту
+E021,hard,ru,RIDE_MANAGEMENT,RIDE_MANAGEMENT,ACCOUNT,A,986.7,ACCOUNT,A,1026.3,Создать маршрут на завтра,Қысқа орысша өтініш
+E022,normal,kk,RIDE_MANAGEMENT,RIDE_MANAGEMENT,ACCOUNT,"A, B,",3011.0,RIDE_MANAGEMENT,C,2228.6,"Жүргізушімін, жол жүру бағасын қате жаздым.",Өз жарияланымының бағасын өзгерту
+E023,normal,kk,RIDE_MANAGEMENT,UNCERTAIN,ACCOUNT,A,3271.4,ACCOUNT,A,2696.7,"Сапарды тоқтаттым, бірақ ол тізімде әлі белсенді тұр.",Жарияланымды тоқтату
+E024,hard,kk,RIDE_MANAGEMENT,UNCERTAIN,RIDE_MANAGEMENT,RIDE_MANAGEMENT,2812.6,ACCOUNT,A,2557.4,Маршрутты сақтағанда сервер қатесі шығады.,"Нысан анық емес, сақтау әрекеті арқылы ажыратылады"
+E025,normal,kk,BOOKING,BOOKING,SEARCH,BOOKING,3569.5,BOOKING,D,3514.0,"Бір орынды брондадым, бірақ жүргізушіге хабарлама бармады.",Бронь хабарламасы
+E026,normal,kk,BOOKING,BOOKING,BOOKING,D,2885.1,BOOKING,D,3105.9,"Броньнан бас тартқым келеді, батырма жұмыс істемейді.",Броньды болдырмау
+E027,normal,kk,BOOKING,BOOKING,SEARCH,BOOKING,3330.0,BOOKING,D,3221.3,"Бос орын бар еді, бірақ жүйе брондауға рұқсат бермеді.",Бронь жасау қатесі
+E028,normal,kk,BOOKING,BOOKING,ACCOUNT,A,3330.8,ACCOUNT,A,2739.0,Бір сапарға екі рет орын алып қойыппын.,Қайталанған бронь
+E029,hard,mixed,BOOKING,BOOKING,BOOKING,D,1384.6,BOOKING,D,1436.5,booking pending уже 10 минут,Аралас тілдегі қысқа бронь мәселесі
+E030,normal,kk,BOOKING,UNCERTAIN,BOOKING,D,2727.6,BOOKING,D,2870.6,"Жүргізуші менің бронімді қабылдады ма, қайдан көремін?",Бронь мәртебесі
+E031,hard,kk,BOOKING,UNCERTAIN,SEARCH,BOOKING,1476.4,BOOKING,D,1424.2,Орынды досыма беруге бола ма?,Бронь иесін өзгерту туралы жанама сұрақ
+E032,normal,kk,BOOKING,UNCERTAIN,ACCOUNT,"A, B,",2799.2,RIDE_MANAGEMENT,C,2523.0,"Сапар толып тұр дейді, бірақ жүргізушіде бір орын бар.",Орын санының сәйкессіздігі
+E033,normal,kk,SAFETY,SAFETY,RIDE_MANAGEMENT,C,3018.6,ACCOUNT,A,3006.4,"Жүргізуші қауіпті жылдамдықпен жүрді, шағым қалдырғым келеді.",Қауіпсіздік шағымы
+E034,normal,kk,SAFETY,SAFETY,SEARCH,BOOKING,2978.7,ACCOUNT,A,1781.2,Пайдаланушы чатта қорқытып жатыр.,Қорқыту туралы хабарлау
+E035,normal,kk,SAFETY,UNCERTAIN,ACCOUNT,ACCOUNT,3610.5,ACCOUNT,A,2522.7,Көлік нөмірі қосымшадағы нөмірге сәйкес емес.,Көлікті сәйкестендіру тәуекелі
+E036,hard,mixed,SAFETY,SAFETY,UNCERTAIN,U,2219.0,SAFETY,E,1905.0,SOS батырмасы жұмыс істемеді.,Қысқа төтенше жағдай өтініші
+E037,normal,kk,SAFETY,UNCERTAIN,ACCOUNT,"A, B,",4007.1,RIDE_MANAGEMENT,C,3599.2,Жүргізуші ақшаны қосымшада көрсетілгеннен көп сұрады.,Алаяқтық белгісі
+E038,normal,kk,SAFETY,UNCERTAIN,ACCOUNT,A,3540.2,ACCOUNT,A,3742.0,"Бейтаныс адам менің сапар деректерімді біледі, бұл қалай болды?",Дербес деректердің таралуы
+E039,hard,ru,SAFETY,UNCERTAIN,ACCOUNT,A,1813.0,ACCOUNT,A,1755.1,Мне страшно ехать с этим водителем.,Себебі көрсетілмеген қауіпсіздік сигналы
+E040,normal,kk,SAFETY,UNCERTAIN,ACCOUNT,A,2248.5,SEARCH,B,3449.6,"Жолаушы жол бойы агрессия көрсетті, оны бұғаттау керек.",Жолаушыға қатысты қауіпсіздік оқиғасы

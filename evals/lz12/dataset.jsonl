@@ -1,0 +1,40 @@
+{"id":"E001","text":"ENU поштаммен кіре алмай жатырмын, растау коды келмеді.","gold":"ACCOUNT","difficulty":"normal","language":"kk","note":"Тіркелгіге кіру және растау"}
+{"id":"E002","text":"Құпиясөзімді ұмытып қалдым. Аккаунтты қалай қалпына келтіремін?","gold":"ACCOUNT","difficulty":"normal","language":"kk","note":"Құпиясөзді қалпына келтіру"}
+{"id":"E003","text":"Сессиям өздігінен жабылып қалады, қайта-қайта кіруге тура келеді.","gold":"ACCOUNT","difficulty":"normal","language":"kk","note":"Сессия мәселесі"}
+{"id":"E004","text":"Профильдегі телефон нөмірін ауыстыра алмаймын.","gold":"ACCOUNT","difficulty":"normal","language":"kk","note":"Профиль деректерін өзгерту"}
+{"id":"E005","text":"Менің ENU email-ым жүйеде танылмайды.","gold":"ACCOUNT","difficulty":"hard","language":"mixed","note":"Аралас тілдегі қысқа тіркелгі өтініші"}
+{"id":"E006","text":"аккаунт заблокирован","gold":"ACCOUNT","difficulty":"hard","language":"ru","note":"Өте қысқа өтініш"}
+{"id":"E007","text":"Басқа адамның құрылғысынан кірген сияқтымын, барлық сессияларды жапқым келеді.","gold":"ACCOUNT","difficulty":"normal","language":"kk","note":"Қауіпсіз сессияны басқару"}
+{"id":"E008","text":"Авторизациядан кейін қайтадан кіру бетіне жібереді.","gold":"ACCOUNT","difficulty":"normal","language":"kk","note":"Кіру циклінің қатесі"}
+{"id":"E009","text":"Ертең таңғы сегізде сол жағалаудан университетке баратын көлік бар ма?","gold":"SEARCH","difficulty":"normal","language":"kk","note":"Сапар іздеу"}
+{"id":"E010","text":"Маршрут бойынша іздесем, нәтиже шықпайды, бірақ сапар бар деп айтты.","gold":"SEARCH","difficulty":"normal","language":"kk","note":"Іздеу нәтижесінің қатесі"}
+{"id":"E011","text":"Баға мен бос орын бойынша сүзгіні қайдан қоямын?","gold":"SEARCH","difficulty":"normal","language":"kk","note":"Іздеу сүзгілері"}
+{"id":"E012","text":"Найти поездку ENU — Косшы на 18:00.","gold":"SEARCH","difficulty":"hard","language":"mixed","note":"Аралас тілдегі іздеу"}
+{"id":"E013","text":"Картадан жақын жүргізушілер көрінбей тұр.","gold":"SEARCH","difficulty":"normal","language":"kk","note":"Карта арқылы іздеу"}
+{"id":"E014","text":"Қайтар жолға да бірден сапар іздеуге бола ма?","gold":"SEARCH","difficulty":"normal","language":"kk","note":"Қайтар сапарды іздеу"}
+{"id":"E015","text":"Бүгін кешке үйге жеткізетін адам керек.","gold":"SEARCH","difficulty":"hard","language":"kk","note":"Нақты бағытсыз, бірақ іздеу ниеті бар"}
+{"id":"E016","text":"Іздеу тек ескі сапарларды көрсетіп тұр.","gold":"SEARCH","difficulty":"normal","language":"kk","note":"Іздеу деректерінің өзектілігі"}
+{"id":"E017","text":"Жүргізуші ретінде жаңа сапарды қалай жариялаймын?","gold":"RIDE_MANAGEMENT","difficulty":"normal","language":"kk","note":"Сапар құру"}
+{"id":"E018","text":"Жариялаған бағытымның уақытын өзгертуім керек.","gold":"RIDE_MANAGEMENT","difficulty":"normal","language":"kk","note":"Өз сапарын өңдеу"}
+{"id":"E019","text":"Менің сапарым екі рет жарияланып кетіпті, біреуін өшіріңіз.","gold":"RIDE_MANAGEMENT","difficulty":"normal","language":"kk","note":"Қайталанған жарияланымды жою"}
+{"id":"E020","text":"Бос орын санын 3-тен 2-ге ауыстыра алмай жатырмын.","gold":"RIDE_MANAGEMENT","difficulty":"normal","language":"kk","note":"Сыйымдылықты өзгерту"}
+{"id":"E021","text":"Создать маршрут на завтра","gold":"RIDE_MANAGEMENT","difficulty":"hard","language":"ru","note":"Қысқа орысша өтініш"}
+{"id":"E022","text":"Жүргізушімін, жол жүру бағасын қате жаздым.","gold":"RIDE_MANAGEMENT","difficulty":"normal","language":"kk","note":"Өз жарияланымының бағасын өзгерту"}
+{"id":"E023","text":"Сапарды тоқтаттым, бірақ ол тізімде әлі белсенді тұр.","gold":"RIDE_MANAGEMENT","difficulty":"normal","language":"kk","note":"Жарияланымды тоқтату"}
+{"id":"E024","text":"Маршрутты сақтағанда сервер қатесі шығады.","gold":"RIDE_MANAGEMENT","difficulty":"hard","language":"kk","note":"Нысан анық емес, сақтау әрекеті арқылы ажыратылады"}
+{"id":"E025","text":"Бір орынды брондадым, бірақ жүргізушіге хабарлама бармады.","gold":"BOOKING","difficulty":"normal","language":"kk","note":"Бронь хабарламасы"}
+{"id":"E026","text":"Броньнан бас тартқым келеді, батырма жұмыс істемейді.","gold":"BOOKING","difficulty":"normal","language":"kk","note":"Броньды болдырмау"}
+{"id":"E027","text":"Бос орын бар еді, бірақ жүйе брондауға рұқсат бермеді.","gold":"BOOKING","difficulty":"normal","language":"kk","note":"Бронь жасау қатесі"}
+{"id":"E028","text":"Бір сапарға екі рет орын алып қойыппын.","gold":"BOOKING","difficulty":"normal","language":"kk","note":"Қайталанған бронь"}
+{"id":"E029","text":"booking pending уже 10 минут","gold":"BOOKING","difficulty":"hard","language":"mixed","note":"Аралас тілдегі қысқа бронь мәселесі"}
+{"id":"E030","text":"Жүргізуші менің бронімді қабылдады ма, қайдан көремін?","gold":"BOOKING","difficulty":"normal","language":"kk","note":"Бронь мәртебесі"}
+{"id":"E031","text":"Орынды досыма беруге бола ма?","gold":"BOOKING","difficulty":"hard","language":"kk","note":"Бронь иесін өзгерту туралы жанама сұрақ"}
+{"id":"E032","text":"Сапар толып тұр дейді, бірақ жүргізушіде бір орын бар.","gold":"BOOKING","difficulty":"normal","language":"kk","note":"Орын санының сәйкессіздігі"}
+{"id":"E033","text":"Жүргізуші қауіпті жылдамдықпен жүрді, шағым қалдырғым келеді.","gold":"SAFETY","difficulty":"normal","language":"kk","note":"Қауіпсіздік шағымы"}
+{"id":"E034","text":"Пайдаланушы чатта қорқытып жатыр.","gold":"SAFETY","difficulty":"normal","language":"kk","note":"Қорқыту туралы хабарлау"}
+{"id":"E035","text":"Көлік нөмірі қосымшадағы нөмірге сәйкес емес.","gold":"SAFETY","difficulty":"normal","language":"kk","note":"Көлікті сәйкестендіру тәуекелі"}
+{"id":"E036","text":"SOS батырмасы жұмыс істемеді.","gold":"SAFETY","difficulty":"hard","language":"mixed","note":"Қысқа төтенше жағдай өтініші"}
+{"id":"E037","text":"Жүргізуші ақшаны қосымшада көрсетілгеннен көп сұрады.","gold":"SAFETY","difficulty":"normal","language":"kk","note":"Алаяқтық белгісі"}
+{"id":"E038","text":"Бейтаныс адам менің сапар деректерімді біледі, бұл қалай болды?","gold":"SAFETY","difficulty":"normal","language":"kk","note":"Дербес деректердің таралуы"}
+{"id":"E039","text":"Мне страшно ехать с этим водителем.","gold":"SAFETY","difficulty":"hard","language":"ru","note":"Себебі көрсетілмеген қауіпсіздік сигналы"}
+{"id":"E040","text":"Жолаушы жол бойы агрессия көрсетті, оны бұғаттау керек.","gold":"SAFETY","difficulty":"normal","language":"kk","note":"Жолаушыға қатысты қауіпсіздік оқиғасы"}
