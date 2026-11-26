@@ -1,0 +1,10 @@
+{
+  "repository": "nypucjiam-create/ENUWay",
+  "source_mode": "live-github-api",
+  "provider": "llamacpp",
+  "model": "qwen2.5-3b-instruct",
+  "model_error": null,
+  "model_generation_seconds": 507.713,
+  "total_run_seconds": 510.613,
+  "generated_at_utc": "2026-11-26T13:47:14.251757+00:00"
+}

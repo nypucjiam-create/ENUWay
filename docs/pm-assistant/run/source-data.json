@@ -1,0 +1,591 @@
+{
+  "repository": "nypucjiam-create/ENUWay",
+  "collected_at_utc": "2026-11-26T13:38:46.533583+00:00",
+  "source": "GitHub REST API",
+  "sprints": [
+    {
+      "name": "Спринт 1",
+      "start": "2026-09-16T00:00:00Z",
+      "end_exclusive": "2026-09-30T00:00:00Z",
+      "commit_count": 3,
+      "commits": [
+        {
+          "sha": "aca897c",
+          "date": "2026-09-17T06:03:57Z",
+          "author": "nypucjiam-create",
+          "message": "Change decision date to 2026-09-11",
+          "url": "https://github.com/nypucjiam-create/ENUWay/commit/aca897c5e0c97c4eec0b529bf15c68b599d64a47"
+        },
+        {
+          "sha": "529bc88",
+          "date": "2026-09-17T05:40:46Z",
+          "author": "Жуматаев Нурислам",
+          "message": "docs(workspace): add live GitHub links [ENU-000]",
+          "url": "https://github.com/nypucjiam-create/ENUWay/commit/529bc88bbd899b792f53ad6ebb7f44bfa00872b4"
+        },
+        {
+          "sha": "33d5f5f",
+          "date": "2026-09-16T16:04:30Z",
+          "author": "Жуматаев Нурислам",
+          "message": "docs: initialize ENUWay lab 2 workspace [ENU-000]",
+          "url": "https://github.com/nypucjiam-create/ENUWay/commit/33d5f5f1326118c344bb507b8c64efacb7a44e38"
+        }
+      ]
+    },
+    {
+      "name": "Спринт 2",
+      "start": "2026-09-30T00:00:00Z",
+      "end_exclusive": "2026-10-14T00:00:00Z",
+      "commit_count": 10,
+      "commits": [
+        {
+          "sha": "c28daae",
+          "date": "2026-10-08T13:29:18Z",
+          "author": "nypucjiam-create",
+          "message": "docs: align LZ 6 forecast with methodology",
+          "url": "https://github.com/nypucjiam-create/ENUWay/commit/c28daaeeabf443f5f3565d81019c7939634f85b8"
+        },
+        {
+          "sha": "70bb9a7",
+          "date": "2026-10-08T10:51:54Z",
+          "author": "nypucjiam-create",
+          "message": "docs: localize and redesign LZ 6 forecast",
+          "url": "https://github.com/nypucjiam-create/ENUWay/commit/70bb9a799cd5c63f68fce6a8dd8628b82f561b24"
+        },
+        {
+          "sha": "a315800",
+          "date": "2026-10-08T10:39:44Z",
+          "author": "nypucjiam-create",
+          "message": "docs: add LZ 6 Monte Carlo forecast",
+          "url": "https://github.com/nypucjiam-create/ENUWay/commit/a315800cd71058fe732a1975c293385a4ffcd3c7"
+        },
+        {
+          "sha": "8c94904",
+          "date": "2026-10-01T13:38:11Z",
+          "author": "nypucjiam-create",
+          "message": "docs: update LZ 5 delivery plan",
+          "url": "https://github.com/nypucjiam-create/ENUWay/commit/8c949046d7fcf55b56ca323b9f819e8a56410a91"
+        },
+        {
+          "sha": "432a025",
+          "date": "2026-10-01T13:21:17Z",
+          "author": "nypucjiam-create",
+          "message": "docs: add LZ 5 delivery planning artifacts",
+          "url": "https://github.com/nypucjiam-create/ENUWay/commit/432a025164c676f1255b9b51cc449e83df4f3bcd"
+        },
+        {
+          "sha": "1b4e8a4",
+          "date": "2026-10-01T08:14:37Z",
+          "author": "nypucjiam-create",
+          "message": "docs: replace LZ 4 document with revised version",
+          "url": "https://github.com/nypucjiam-create/ENUWay/commit/1b4e8a495ad321bcb75affc988b5089c8bad05c6"
+        },
+        {
+          "sha": "79d397b",
+          "date": "2026-10-01T07:43:34Z",
+          "author": "nypucjiam-create",
+          "message": "docs: link LZ 4 communication question register",
+          "url": "https://github.com/nypucjiam-create/ENUWay/commit/79d397bfcc4d5f21c5e7665f23678a21105c432a"
+        },
+        {
+          "sha": "3fc15c0",
+          "date": "2026-10-01T07:40:38Z",
+          "author": "nypucjiam-create",
+          "message": "docs: improve LZ 4 document pagination",
+          "url": "https://github.com/nypucjiam-create/ENUWay/commit/3fc15c0149f090c80c56317c0f486041fa0cdf22"
+        },
+        {
+          "sha": "2fe5cec",
+          "date": "2026-10-01T07:38:14Z",
+          "author": "nypucjiam-create",
+          "message": "docs: align LZ 4 scenarios with methodology",
+          "url": "https://github.com/nypucjiam-create/ENUWay/commit/2fe5cec3430122badd5ad634ec5f37469b76d89a"
+        },
+        {
+          "sha": "d80616f",
+          "date": "2026-10-01T07:35:46Z",
+          "author": "nypucjiam-create",
+          "message": "docs: add LZ 4 requirements package",
+          "url": "https://github.com/nypucjiam-create/ENUWay/commit/d80616f521f1fedbb2d8f2bff762f285a441ea42"
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "number": 1,
+      "title": "[ENU-001] Пилот қатысушыларына сұхбат жүргізу",
+      "state": "closed",
+      "created_at": "2026-09-17T05:42:26Z",
+      "closed_at": "2026-10-29T13:14:12Z",
+      "updated_at": "2026-10-29T13:14:12Z",
+      "labels": [],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/1"
+    },
+    {
+      "number": 2,
+      "title": "[ENU-002] Негізгі persona және JTBD қалыптастыру",
+      "state": "open",
+      "created_at": "2026-09-17T05:43:40Z",
+      "closed_at": null,
+      "updated_at": "2026-09-17T05:43:40Z",
+      "labels": [],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/2"
+    },
+    {
+      "number": 3,
+      "title": "[ENU-003] ENU пайдаланушысын тексеру нұсқаларын бағалау",
+      "state": "open",
+      "created_at": "2026-09-17T05:44:16Z",
+      "closed_at": null,
+      "updated_at": "2026-09-17T05:44:16Z",
+      "labels": [],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/3"
+    },
+    {
+      "number": 4,
+      "title": "[ENU-004] Қауіпсіз кездесу нүктелері ережесін анықтау",
+      "state": "open",
+      "created_at": "2026-09-17T05:44:37Z",
+      "closed_at": null,
+      "updated_at": "2026-09-17T05:44:37Z",
+      "labels": [],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/4"
+    },
+    {
+      "number": 5,
+      "title": "[ENU-005] Сапар құру ағынын прототиптеу",
+      "state": "open",
+      "created_at": "2026-09-17T05:44:57Z",
+      "closed_at": null,
+      "updated_at": "2026-09-17T05:44:57Z",
+      "labels": [],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/5"
+    },
+    {
+      "number": 6,
+      "title": "[ENU-006] Сапарға қосылу ағынын прототиптеу",
+      "state": "open",
+      "created_at": "2026-09-17T05:45:11Z",
+      "closed_at": null,
+      "updated_at": "2026-09-17T05:45:11Z",
+      "labels": [],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/6"
+    },
+    {
+      "number": 7,
+      "title": "[ENU-007] Шығынды бөлу логикасын анықтау",
+      "state": "open",
+      "created_at": "2026-09-17T05:45:16Z",
+      "closed_at": null,
+      "updated_at": "2026-09-17T05:45:16Z",
+      "labels": [],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/7"
+    },
+    {
+      "number": 8,
+      "title": "[ENU-008] Рейтинг пен шағым моделін жобалау",
+      "state": "open",
+      "created_at": "2026-09-17T05:45:22Z",
+      "closed_at": null,
+      "updated_at": "2026-09-17T05:45:22Z",
+      "labels": [],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/8"
+    },
+    {
+      "number": 9,
+      "title": "[ENU-009] ENUWay кликабельді прототипін біріктіру",
+      "state": "open",
+      "created_at": "2026-09-17T05:45:27Z",
+      "closed_at": null,
+      "updated_at": "2026-09-17T05:45:27Z",
+      "labels": [],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/9"
+    },
+    {
+      "number": 10,
+      "title": "[ENU-010] Пилот жоспары мен өлшемдерін бекіту",
+      "state": "open",
+      "created_at": "2026-09-17T05:45:32Z",
+      "closed_at": null,
+      "updated_at": "2026-09-17T05:45:32Z",
+      "labels": [],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/10"
+    },
+    {
+      "number": 12,
+      "title": "[US-01] ENU аккаунтымен тіркелу",
+      "state": "open",
+      "created_at": "2026-10-01T07:11:50Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:37:41Z",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/12"
+    },
+    {
+      "number": 13,
+      "title": "[US-02] Профильді толтыру",
+      "state": "open",
+      "created_at": "2026-10-01T07:12:08Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:37:42Z",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/13"
+    },
+    {
+      "number": 14,
+      "title": "[US-03] Бағыт пен күн бойынша іздеу",
+      "state": "open",
+      "created_at": "2026-10-01T07:12:09Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:37:44Z",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/14"
+    },
+    {
+      "number": 15,
+      "title": "[US-04] Сапар карточкасын көру",
+      "state": "open",
+      "created_at": "2026-10-01T07:12:10Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:37:44Z",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/15"
+    },
+    {
+      "number": 16,
+      "title": "[US-05] Жаңа сапар құру",
+      "state": "open",
+      "created_at": "2026-10-01T07:12:11Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:37:46Z",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/16"
+    },
+    {
+      "number": 17,
+      "title": "[US-06] Орын санын белгілеу",
+      "state": "open",
+      "created_at": "2026-10-01T07:12:12Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:37:47Z",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/17"
+    },
+    {
+      "number": 19,
+      "title": "[US-09] Сұрауды қабылдау немесе қабылдамау",
+      "state": "open",
+      "created_at": "2026-10-01T07:12:13Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:37:50Z",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/19"
+    },
+    {
+      "number": 18,
+      "title": "[US-07] Шығын үлесін көрсету",
+      "state": "open",
+      "created_at": "2026-10-01T07:12:13Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:37:48Z",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/18"
+    },
+    {
+      "number": 20,
+      "title": "[US-08] Қосылу сұрауын жіберу",
+      "state": "open",
+      "created_at": "2026-10-01T07:12:14Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:37:49Z",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/20"
+    },
+    {
+      "number": 21,
+      "title": "[US-10] Менің сапарларым",
+      "state": "open",
+      "created_at": "2026-10-01T07:12:15Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:37:51Z",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/21"
+    },
+    {
+      "number": 22,
+      "title": "[US-11] Сапардан бас тарту",
+      "state": "open",
+      "created_at": "2026-10-01T07:12:16Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:37:53Z",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/22"
+    },
+    {
+      "number": 23,
+      "title": "[US-12] Сапарды жабу",
+      "state": "open",
+      "created_at": "2026-10-01T07:12:17Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:37:54Z",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/23"
+    },
+    {
+      "number": 25,
+      "title": "[US-14] Шағым жіберу",
+      "state": "open",
+      "created_at": "2026-10-01T07:12:18Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:37:56Z",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/25"
+    },
+    {
+      "number": 24,
+      "title": "[US-13] Қатысушыны бағалау",
+      "state": "open",
+      "created_at": "2026-10-01T07:12:18Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:37:55Z",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/24"
+    },
+    {
+      "number": 26,
+      "title": "[US-15] Пайдаланушыны бұғаттау",
+      "state": "open",
+      "created_at": "2026-10-01T07:12:19Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:37:57Z",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/26"
+    },
+    {
+      "number": 27,
+      "title": "[US-16] Шағымды өңдеу",
+      "state": "open",
+      "created_at": "2026-10-01T07:12:20Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:37:58Z",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/27"
+    },
+    {
+      "number": 28,
+      "title": "[US-17] Мәртебе өзгерісі туралы хабарлама",
+      "state": "open",
+      "created_at": "2026-10-01T07:12:21Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:37:59Z",
+      "labels": [
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/28"
+    },
+    {
+      "number": 29,
+      "title": "[US-18] Қазақша орысша және ағылшынша интерфейс",
+      "state": "open",
+      "created_at": "2026-10-01T07:12:22Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:41:21Z",
+      "labels": [
+        "documentation",
+        "enhancement"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/29"
+    },
+    {
+      "number": 30,
+      "title": "[QUESTIONS] Жұмыс сұрақтарының бірыңғай тізімі",
+      "state": "open",
+      "created_at": "2026-10-01T07:42:12Z",
+      "closed_at": null,
+      "updated_at": "2026-10-01T07:52:52Z",
+      "labels": [
+        "documentation"
+      ],
+      "assignees": [],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/30"
+    },
+    {
+      "number": 31,
+      "title": "[RISK-01] ENU аккаунтын тексеру мен сессияны қорғауды енгізу",
+      "state": "open",
+      "created_at": "2026-10-14T18:50:33Z",
+      "closed_at": null,
+      "updated_at": "2026-10-15T14:38:38Z",
+      "labels": [],
+      "assignees": [
+        "nypucjiam-create"
+      ],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/31"
+    },
+    {
+      "number": 32,
+      "title": "[RISK-02] Сапарға қосылуда артық броньды болдырмау",
+      "state": "open",
+      "created_at": "2026-10-14T18:50:34Z",
+      "closed_at": null,
+      "updated_at": "2026-10-14T18:50:34Z",
+      "labels": [],
+      "assignees": [
+        "nypucjiam-create"
+      ],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/32"
+    },
+    {
+      "number": 33,
+      "title": "[RISK-03] Дербес деректерді сақтау және қолжетімділік бақылауын бекіту",
+      "state": "open",
+      "created_at": "2026-10-14T18:50:36Z",
+      "closed_at": null,
+      "updated_at": "2026-10-14T18:50:36Z",
+      "labels": [],
+      "assignees": [
+        "nypucjiam-create"
+      ],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/33"
+    },
+    {
+      "number": 34,
+      "title": "[UAT-01] Бос іздеу нәтижесіне келесі әрекетті қосу",
+      "state": "open",
+      "created_at": "2026-11-11T22:47:05Z",
+      "closed_at": null,
+      "updated_at": "2026-11-11T22:47:05Z",
+      "labels": [],
+      "assignees": [
+        "nypucjiam-create"
+      ],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/34"
+    },
+    {
+      "number": 35,
+      "title": "[UAT-02] Бөтен сапарды өзгертуге тыйым салу",
+      "state": "open",
+      "created_at": "2026-11-11T22:47:07Z",
+      "closed_at": null,
+      "updated_at": "2026-11-11T22:47:07Z",
+      "labels": [],
+      "assignees": [
+        "nypucjiam-create"
+      ],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/35"
+    },
+    {
+      "number": 36,
+      "title": "[UAT-03] Демоға сапар құру нысанын қосу",
+      "state": "open",
+      "created_at": "2026-11-11T22:47:08Z",
+      "closed_at": null,
+      "updated_at": "2026-11-11T22:47:08Z",
+      "labels": [],
+      "assignees": [
+        "nypucjiam-create"
+      ],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/36"
+    },
+    {
+      "number": 37,
+      "title": "[INC-01] CI action нұсқаларын автоматты тексеру",
+      "state": "open",
+      "created_at": "2026-11-11T22:47:09Z",
+      "closed_at": null,
+      "updated_at": "2026-11-11T22:47:09Z",
+      "labels": [],
+      "assignees": [
+        "nypucjiam-create"
+      ],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/37"
+    },
+    {
+      "number": 38,
+      "title": "[INC-02] CI workflow үшін pull request smoke тексеруін міндеттеу",
+      "state": "open",
+      "created_at": "2026-11-11T22:47:10Z",
+      "closed_at": null,
+      "updated_at": "2026-11-11T22:47:10Z",
+      "labels": [],
+      "assignees": [
+        "nypucjiam-create"
+      ],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/38"
+    },
+    {
+      "number": 39,
+      "title": "[INC-03] CI қалпына келуін 60 минуттан асырмау",
+      "state": "open",
+      "created_at": "2026-11-11T22:47:11Z",
+      "closed_at": null,
+      "updated_at": "2026-11-11T22:47:11Z",
+      "labels": [],
+      "assignees": [
+        "nypucjiam-create"
+      ],
+      "url": "https://github.com/nypucjiam-create/ENUWay/issues/39"
+    }
+  ]
+}
